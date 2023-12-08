@@ -12,8 +12,9 @@ public class C01_WebuniversityTesti {
 
     @Test
     public void negatifLoginTesti(){
-        //1."http://webdriveruniversity.com/" adresine gidin
-        Driver.getDriver().get("http://webdriveruniversity.com/");
+        //1."https://webdriveruniversity.com/" adresine gidin
+        Driver.getDriver().get("https://www.webdriveruniversity.com/");
+        ReusableMethods.bekle(2);
         //2."Login Portal" a  kadar asagi inin
         WebuniversityPage webuniversityPage = new WebuniversityPage();
         JavascriptExecutor jse = (JavascriptExecutor) Driver.getDriver();
