@@ -1,4 +1,4 @@
-package test.day15_configuration_driver_Kullanimi;
+package tests.day15_configuration_driver_Kullanimi;
 
 import org.openqa.selenium.Keys;
 import org.testng.Assert;
@@ -8,7 +8,7 @@ import utilities.ConfigReader;
 import utilities.Driver;
 import utilities.ReusableMethods;
 
-public class C02_configurationPropertiesKullanimi {
+public class C02_configurationsPropertiesKullanimi {
 
     @Test
     public void aramaTesti(){

@@ -1,12 +1,12 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 
 <!--
-    Eger calisacak test method'larini tek tek xml dosyasina yazmak istemezseniz
+    Eger calisacak tests method'larini tek tek xml dosyasina yazmak istemezseniz
     TestNG'deki groups ozelligini kullanabilirsiniz
 
     grup calistirmak icin iki hiyerarsiye ihtiyacimiz var
     1- hangi grup ve/veya gruplarin calisip calismayacagi
-    2- calisacak test method'larinin nerede aranacagi
+    2- calisacak tests method'larinin nerede aranacagi
 -->
 
 <suite name="istenen gruplari calistirma">

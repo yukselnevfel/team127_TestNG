@@ -1,4 +1,4 @@
-package test.day15_configuration_driver_Kullanimi;
+package tests.day15_configuration_driver_Kullanimi;
 
 import com.github.javafaker.Faker;
 import org.openqa.selenium.JavascriptExecutor;

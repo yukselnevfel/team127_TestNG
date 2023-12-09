@@ -12,7 +12,7 @@
                       durumlari gozonune alinmalidir
 
         verbose :  1-10 arasi deger alir
-                   test calistirma sonrasinda
+                   tests calistirma sonrasinda
                    consolda cikan kirmizi yazilarin az veya cok olmasini belirler
                    1 en az , 10 en cok demektir
     -->

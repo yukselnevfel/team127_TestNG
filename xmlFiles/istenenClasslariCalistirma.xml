@@ -6,18 +6,18 @@
     1- basa yazdigimiz satir
        tum .xml dosyalarimizda olmalidir
        bu satir bu .xml dosyasinda yazdigimiz kodlarin
-       TestNG ile hazirlanan test method'lari, class'lari veya pacakage'larini calistiracaktir
+       TestNG ile hazirlanan tests method'lari, class'lari veya pacakage'larini calistiracaktir
     2- Hangi method/class/package'larin calisacagini
-       test hiyerarsisine uygun olarak
+       tests hiyerarsisine uygun olarak
        .xml dosyamizda yazmaliyiz
 
     3- Test hiyerarsisi :
-       suite : bir veya birden fazla test icerir
-       test : bir amac icin bir araya getirilen
-              test method/class/package'larindan olusan
+       suite : bir veya birden fazla tests icerir
+       tests : bir amac icin bir araya getirilen
+              tests method/class/package'larindan olusan
               ve tek seferde calistirabilecegimiz yapidir
-              Orn : smoke test, E2E , regression
-       package - class - test method'lari ayni seviyededir
+              Orn : smoke tests, E2E , regression
+       package - class - tests method'lari ayni seviyededir
 
 -->
 

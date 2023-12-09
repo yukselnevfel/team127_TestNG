@@ -1,4 +1,4 @@
-package test.Grup_Practise;
+package tests.Grup_Practise;
 
 import org.testng.annotations.Test;
 
