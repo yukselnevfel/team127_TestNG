@@ -8,7 +8,7 @@ import utilities.ConfigReader;
 import utilities.Driver;
 import utilities.ReusableMethods;
 
-public class C02_configurationsPropertiesKullanimi {
+public class C02_configurationPropertiesKullanimi {
 
     @Test
     public void aramaTesti(){

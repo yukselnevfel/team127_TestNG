@@ -2,7 +2,7 @@ package test.day14_testNG;
 
 import org.testng.annotations.Test;
 
-public class C02_DepensOnMethods {
+public class C02_DependsOnMethods {
 
 
     /*
