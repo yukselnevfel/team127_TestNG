@@ -16,7 +16,7 @@ public class C04_NegatifLoginTesti {
     //	- gecerli username, gecersiz password
     //	- gecersiz username, gecerli password
     //	- gecersiz username, gecersiz password.
-    //4- Login butonuna basarak login olun
+    //4- Account butonuna basarak login olun
     //5- Basarili olarak giris yapilamadigini test edin
 
     @Test(groups = {"smoke"})

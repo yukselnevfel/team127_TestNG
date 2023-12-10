@@ -1,5 +1,6 @@
 package tests.day14_testNG;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
@@ -18,6 +19,13 @@ public class C07_CheckBoxTest {
         Driver.getDriver().get("https://testotomasyonu.com/form");
         //	b. Sirt Agrisi ve Carpinti checkbox’larini secin
         TestOtomasyonuFormPage testOtomasyonuFormPage = new TestOtomasyonuFormPage();
+        JavascriptExecutor jse= (JavascriptExecutor) Driver.getDriver();
+        jse.executeScript("arguments[0].scrollIntoView(true);",testOtomasyonuFormPage.carpintiCheckboxKutusu);
+        //Actions actions=new Actions(Driver.getDriver());
+        //actions.sendKeys(Keys.PAGE_DOWN).perform();
+
+        ReusableMethods.bekle(3);
+
         testOtomasyonuFormPage.carpintiCheckboxKutusu.click();
         testOtomasyonuFormPage.sirtAgrisiCheckboxKutusu.click();
 
@@ -28,13 +36,13 @@ public class C07_CheckBoxTest {
 
         //	d. Seker ve Epilepsi checkbox’larininin seçili olmadigini test edin
 
-        Actions actions = new Actions(Driver.getDriver());
-        actions.sendKeys(Keys.PAGE_DOWN).perform();
+       // Actions actions = new Actions(Driver.getDriver());
+        //actions.sendKeys(Keys.PAGE_DOWN).perform();
         ReusableMethods.bekle(1);
 
         Assert.assertFalse(testOtomasyonuFormPage.epilepsiCheckboxKutusu.isSelected());
         Assert.assertFalse(testOtomasyonuFormPage.sekerCheckboxKutusu.isSelected());
-        ReusableMethods.bekle(2);
+        ReusableMethods.bekle(5);
         Driver.closeDriver();
     }
     }
