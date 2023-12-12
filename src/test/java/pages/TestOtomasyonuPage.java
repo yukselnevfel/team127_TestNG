@@ -40,4 +40,9 @@ public class TestOtomasyonuPage {
     @FindBy(xpath = "//span[text()='Logout']")
     public WebElement logoutLinki;
 
+
+    @FindBy(xpath = "//a[@class='e-cart mx-3']")
+    public WebElement kalpLinki;
+
+
 }
